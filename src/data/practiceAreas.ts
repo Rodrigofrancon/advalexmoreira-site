@@ -1,9 +1,8 @@
 import {
   Scale,
-  Briefcase,
   Landmark,
-  Building2,
-  Receipt,
+  Briefcase,
+  Gavel,
   ShieldCheck,
   HeartHandshake,
 } from "lucide-react";
@@ -16,28 +15,22 @@ export const practiceAreas = [
       "Contratos, responsabilidade civil, indenizações e obrigações.",
   },
   {
-    icon: Briefcase,
-    title: "Direito Trabalhista",
-    description:
-      "Atuação em defesa de empregados e empregadores.",
-  },
-  {
     icon: Landmark,
     title: "Direito Previdenciário",
     description:
       "Aposentadorias, benefícios e revisões previdenciárias.",
   },
   {
-    icon: Building2,
-    title: "Direito Empresarial",
+    icon: Briefcase,
+    title: "Direito Trabalhista",
     description:
-      "Assessoria jurídica para empresas e negócios.",
+      "Atuação em defesa de empregados e empregadores.",
   },
   {
-    icon: Receipt,
-    title: "Direito Tributário",
+    icon: Gavel,
+    title: "Direito Penal",
     description:
-      "Planejamento tributário e defesa administrativa e judicial.",
+      "Defesa em inquéritos, processos criminais e audiências.",
   },
   {
     icon: ShieldCheck,

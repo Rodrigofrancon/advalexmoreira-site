@@ -8,7 +8,8 @@ export default function Hero() {
   return (
     <Section
       id="inicio"
-      className="relative overflow-hidden bg-[#FAF8F4] py-0"
+      padded={false}
+      className="relative overflow-hidden bg-[#FAF8F4]"
     >
       {/* Elemento decorativo */}
 
@@ -29,9 +30,9 @@ export default function Hero() {
             grid
             items-center
             gap-16
-            py-20
-            lg:min-h-[calc(100vh-90px)]
-            lg:grid-cols-[1.15fr_0.85fr]
+            py-16
+            lg:py-24
+            lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)]
           "
         >
           <HeroContent />

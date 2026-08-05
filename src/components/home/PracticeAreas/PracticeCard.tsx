@@ -64,27 +64,6 @@ export default function PracticeCard({
       <p className="mt-5 flex-1 leading-8 text-slate-600">
         {description}
       </p>
-
-      <div className="mt-8 border-t border-slate-100 pt-6">
-
-        <span
-          className="
-            inline-flex
-            items-center
-            gap-2
-            font-semibold
-            tracking-wide
-            text-[#B48A47]
-            transition-all
-            duration-300
-            group-hover:gap-3
-          "
-        >
-          Saiba mais
-          <span>→</span>
-        </span>
-
-      </div>
     </article>
   );
 }
