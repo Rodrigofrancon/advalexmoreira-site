@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alexmoreiraadvogado.com.br/sitemap.xml
